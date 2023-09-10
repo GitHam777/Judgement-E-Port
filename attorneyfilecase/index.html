@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Attorney | File Case </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <section class="header">
+        <h1> Judgement E-Portal </h1>
+    </section>
+    <section class="generalfillup">
+        <form>
+            <h1> Case Heading </h1>
+            <p> 
+                Select the case type that best fits: <br> 
+                <select name="" id="casetype">
+                    <option> --- choose --- </option>
+                    <option> Business Case </option>
+                    <option> Civil Case </option>
+                    <option> Criminal Case </option>
+                </select>
+            </p>
+            <p>
+                Case to be heard at: <br>
+                <select name="" id="courttype">
+                    <option> --- choose --- </option>
+                    <option> District Court </option>
+                    <option> High Court </option>
+                    <option> Supreme Court </option>
+                </select>
+            </p>
+            <p>
+                Case being carried on from: <br>
+                <select name="" id="carryon">
+                    <option>  --- choose --- </option>
+                    <option> None </option>
+                    <option> District Court </option>
+                    <option> High Court </option>
+                </select>
+            </p>
+            <h1> Attorney information </h1>
+            <div class="attorneypart">
+            <p>
+                Attorney Name who is handling the case: <br>
+                <input type="text" placeholder="Full Name">
+            </p>
+            <p>
+                Attorney ID for the respective person: <br>
+                <input type="email" placeholder="attorney@judement.com">
+            </p>
+            </div>
+            <h1> Client information </h1>
+            <div class="filerpart">
+                <p>
+                    Name of the person filing case: <br>
+                    <input type="text" placeholder="Full Name">
+                </p>
+                <p>
+                    E-Mail of the person: <br>
+                    <input type="email" placeholder="email@inlook.com">
+                </p>
+                <p>
+                    Phone Number of the person: <br>
+                    <input type="number" placeholder="00000 00000">
+                </p>
+            </div>
+            <h1> Client Address </h1>
+            <p>
+                Address of the person filing the case: <br>
+                <input type="text" placeholder="Address">
+            </p>
+            <div class="filerstay">
+                <p>
+                    City Name: <br>
+                    <input type="text" placeholder="eg: Wakanda">
+                </p>
+                <p>
+                    Area Pin Code: <br>
+                    <input type="number" placeholder="000 000">
+                </p>
+            </div>
+            <h1> Issue Report </h1>
+            <p>
+                Please give a brief description of the issue: <br>
+                <textarea name="" id="" cols="100" rows="10">
+
+                </textarea>
+            </p>
+            <button class="btn" type="submit"> Complete Form </button>
+            <button class="btn" type="reset"> Clear Form </button>
+        </form>
+    </section>
+</body>
+</html>

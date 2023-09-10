@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    font-size: 17px;
+    color: #5c5c5c;
+}
+
+.header h1
+{
+    padding: 20px 30px;
+    font-size: 30px;
+    color: #4f4f4f;
+}
+
+
+.generalfillup h1
+{
+    font-size: 25px;
+    padding: 20px 0;
+}
+.generalfillup
+{
+    padding: 40px 170px;
+}
+.generalfillup p
+{
+    padding: 15px 30px;
+    font-weight: 100;
+}
+.attorneypart
+{
+    display: flex;
+}
+.filerpart
+{
+    display: flex;
+}
+.filerstay
+{
+    display: flex;
+}
+form input
+{
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+form textarea
+{
+    resize: none;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+#casetype,#courttype,#carryon
+{
+    border: 1px solid;
+    margin: 8px 0;
+    border-radius: 10px;
+    padding: 6px;
+    width: 300px;
+}
+
+.btn
+{
+    margin: 40px;
+    background: lightgray;
+    border: 2px solid darkgray;
+    font-size: 20px;
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+
+.btn:hover
+{
+    border-color: gray;
+    cursor: pointer;
+}
