@@ -16,13 +16,13 @@
 .firstsection
 {
     display: flex;
-    padding: 20px 0;
 }
 
 .firstsection .left
 {
     flex-basis: 60%;
     text-align: center;
+    padding: 40px 0;
 }
 .left h1
 {
@@ -72,6 +72,7 @@
     background: lightgray;
     border: 2px solid darkgray;
     font-size: 20px;
+    width: 250px;
     padding: 15px 40px;
     border-radius: 30px;
 }

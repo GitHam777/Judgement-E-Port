@@ -58,6 +58,11 @@ form textarea
     border-radius: 30px;
 }
 
+#address
+{
+    width: 800px;
+}
+
 #casetype,#courttype,#carryon
 {
     border: 1px solid;
